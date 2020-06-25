@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salário</title>
+    <script src="funci.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h3> Salário</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="fixo">Informe o salário fixo</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="fixo">  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="vendas"> Valor das vendas </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="vendas">
+            </div>
+        </div>    
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <!-- botao que quando executado chama a funcao calcula() -->
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcula comissão e salário final </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            Valor da comissao
+            <h5 id="comissao">  </h5>
+            
+            
+            Salario final
+            <h5 id="final"></h5>
+            
+        
+        </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

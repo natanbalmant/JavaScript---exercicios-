@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operacoes</title>
+    <script src="operacao.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h3>Operacoes</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="num1">Informe um numero</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="num1">  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="num2"> Informe outro numero </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="num2">
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="opcao"> Escolha a operacao <br>
+                                1- A média entre os numeros <br>
+                                2- Diferença do maior pelo Menor <br>    
+                                3- Produto entre os numeros digitados <br>
+                                4- Divisão dos numeros</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="opcao">
+            </div>
+        </div>   
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <!-- botao que quando executado chama a funcao calcula() -->
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcula </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            Menor
+            <h5 id="media">  </h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

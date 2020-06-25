@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valor</title>
+    <script src="teste.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h3>Valor</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="preco">Informe o preco do produto</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="preco">  
+            </div>
+        </div> 
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="categoria">Informe a categoria que escolheu (1 ate 3)</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="categoria">  
+            </div>
+        
+        </div><div class="row">
+            <div class="col-lg-6">
+            <label for="refri">Informe se e refrigerado ou nao (r/n)</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="refri">  
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <!-- botao que quando executado chama a funcao calcula() -->
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcula </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            Novo preco
+            <h5 id="media">  </h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area de um Quadrado</title>
+    <script src="quadrado.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h3>Area de um Quadrado</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="um">Informe um lado</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="um">  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="dois"> Informe o outro lado </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="dois">
+            </div>
+        </div>    
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcula </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+            Area 
+            <h5 id="area">  </h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

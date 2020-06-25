@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>    
+    <script src="aluno.js"></script> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+     <div class="container text-center">
+        <h3> Media</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="n1">Informe sua primeira nota</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="n1">  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="n2"> Informe sua segunda nota </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="n2">
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="n3"> Informe sua terceira nota </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="n3">
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="n4"> Informe sua quarta nota </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="n4">
+            </div>
+        </div>     
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcular a média do aluno </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+            Media  
+            <h5 id="media">  </h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 % de Desconto </title>
+    <script src="porcent.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h3> 10 % de Desconto</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="preco">Informe o Preço</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="preco">  
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <!-- botao que quando executado chama a funcao calcula() -->
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcula </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            Valor com o Desconto  
+            <h5 id="TOTAL">  </h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

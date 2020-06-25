@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maior e Menor</title>
+    <script src="maior.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h3> Maior e Menor</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="num1">Informe um numero</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="num1">  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="num2"> Informe outro numero </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="num2">
+            </div>
+        </div>    
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="num3"> Informe outro numero </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="num3">
+            </div>
+        </div>
+            
+        <div class="row">
+            <div class="col-lg-6">
+            <!-- botao que quando executado chama a funcao calcula() -->
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcula </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            Maior
+            <h5 id="maior">  </h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

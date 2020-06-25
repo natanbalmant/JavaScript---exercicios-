@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trapézio</title>
+    <script src="area.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h3> Trapézio</h3>
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="maior">Informe a base maior</label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="maior">  
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="menor"> Informe a base menor </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="menor">
+            </div>
+        </div> 
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <label for="altura"> Informe a altura </label>
+            </div>
+            <div class="col-lg-6">
+            <input type="number" id="altura">
+            </div>
+        </div>  
+        
+        <div class="row">
+            <div class="col-lg-6">
+            <!-- botao que quando executado chama a funcao calcula() -->
+            <button class="btn btn-outline-primary" type="submit" onclick="calcula()"> Calcula </button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+            Area do Trapézio 
+            <h5 id="total">  </h5>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
